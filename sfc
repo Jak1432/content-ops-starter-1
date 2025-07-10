@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>John Henry Chieng - Business Card</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .card {
+            background-color: white;
+            width: 350px;
+            height: 450px;
+            border-radius: 15px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            text-align: center;
+            border: 2px solid #4CAF50;
+        }
+        .card img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin-bottom: 15px;
+        }
+        .card h1 {
+            font-size: 24px;
+            color: #333;
+            margin: 10px 0;
+        }
+        .card h3 {
+            font-size: 16px;
+            color: #555;
+            margin: 5px 0;
+        }
+        .contact-info p {
+            font-size: 14px;
+            color: #555;
+            margin: 5px 0;
+        }
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            margin: 10px 0;
+            background-color: #4CAF50;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .btn:hover {
+            background-color: #45a049;
+        }
+        .company-name {
+            font-size: 22px;
+            font-weight: bold;
+            color: #003366; /* Dark Blue */
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="card">
+        <!-- Company Name -->
+        <div class="company-name">SIAM FIBREBOARD CO., LTD</div>
+
+        <!-- Logo of the Company -->
+        <img style="display: block;-webkit-user-select: none;margin: auto;background-color: hsl(0, 0%, 50%);transition: background-color 300ms;" 
+            src="https://img5.pic.in.th/file/secure-sv1/lg1.png" alt="Company Logo">
+
+        <!-- Name and Title -->
+        <h1>John Henry Chieng</h1>
+        <h3>Deputy Managing Director</h3>
+
+        <!-- Contact Info -->
+        <div class="contact-info">
+            <p><strong>Phone:</strong> 0818975711</p>
+            <p><strong>Email:</strong> <a href="mailto:John@siamfibreboard.com">John@siamfibreboard.com</a></p>
+            <p><strong>Company:</strong> SIAM FIBREBOARD CO ., LTD</p>
+            <p><strong>Address:</strong> Patong, Hatyai, Songkhla, 90230, Thailand</p>
+            <p><strong>Website:</strong> <a href="https://www.evergreengroup.com.my" target="_blank">www.evergreengroup.com.my</a></p>
+        </div>
+
+<BR> 
+
+        <!-- Buttons -->
+        <a href="data:text/vcard;base64,BEGIN:VCARD%0AVERSION:3.0%0AFN:John%20Henry%20Chieng%0ATEL:+6674291111%0ATEL:+6674291555%0ATEL:+66743702534%0AEMAIL:John%40siamfibreboard.com%0AORG:SIAM%20FIBREBOARD%20CO%20.,%20LTD%0ATITLE:Deputy%20Managing%20Director%0AADR;TYPE=WORK:;;Patong,%20Hatyai,%20Songkhla,%2090230,%20Thailand%0AURL:https://www.evergreengroup.com.my%0APHOTO;VALUE=URI:https://www.evergreengroup.com.my/logo.png%0AEND:VCARD" class="btn" download="John_Henry_Chieng.vcf">Save Contact</a>
+        <a href="https://www.evergreengroup.com.my/logo.png" class="btn" download="John_Henry_Chieng_Photo.jpg">Save Photo</a>
+    </div>
+
+</body>
+
+</html>
